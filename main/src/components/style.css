@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #f3f2ef;
+    background: #f2eff3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-input{
+input {
     border: none;
 }
 
@@ -48,7 +48,7 @@ html {
     position: absolute;
     top: 120%;
     left: 50%;
-    background: #fff;
+    background: rgb(181, 253, 255);
     width: 50rem;
     height: 50rem;
     margin-left: -25rem;
@@ -86,6 +86,7 @@ html {
     from {
         transform: rotate(0deg);
     }
+
     from {
         transform: rotate(360deg);
     }
@@ -118,6 +119,7 @@ html {
     from {
         transform: translateX(-0.5rem);
     }
+
     from {
         transform: translateX(0.5rem);
     }
@@ -163,6 +165,7 @@ html {
     from {
         transform: scale(1.1);
     }
+
     to {
         transform: scale(1.5)
     }
@@ -197,7 +200,7 @@ html {
     }
 }
 
-body > span {
+body>span {
     width: 100vw;
     text-align: center;
     color: grey;
